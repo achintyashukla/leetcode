@@ -1,22 +1,13 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        max = 2
         n = len(nums)
+        if n <= 2:
+            return n  
 
-        if n<= max:
-            return n
-        
-        index = 1
+        index = 2  
 
-        count = 1
-
-        for i in range(1, n):
-            if nums[i] == nums[i-1]:
-                count += 1
-            else:
-                count = 1
-
-            if count <= max:
+        for i in range(2, n):
+            if nums[i] != nums[index - 2]:
                 nums[index] = nums[i]
                 index += 1
 
