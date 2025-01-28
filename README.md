@@ -9,6 +9,7 @@
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/achintyashukla/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/achintyashukla/leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/achintyashukla/leetcode/tree/master/0169-majority-element) |
+| [0605-can-place-flowers](https://github.com/achintyashukla/leetcode/tree/master/0605-can-place-flowers) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/achintyashukla/leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 ## Hash Table
 |  |
@@ -49,4 +50,8 @@
 |  |
 | ------- |
 | [1146-greatest-common-divisor-of-strings](https://github.com/achintyashukla/leetcode/tree/master/1146-greatest-common-divisor-of-strings) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/achintyashukla/leetcode/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->
