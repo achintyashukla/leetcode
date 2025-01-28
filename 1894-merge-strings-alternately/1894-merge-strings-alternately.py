@@ -1,8 +1,5 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        if (not word1) or (not word2):
-            return None
-
         res = ""
 
         for i in range(max(len(word1), len(word2))):
