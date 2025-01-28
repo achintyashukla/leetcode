@@ -3,19 +3,15 @@ class Solution:
         if (not word1) or (not word2):
             return None
 
-        newStr = []
+        res = ""
 
-        l1 = len(word1)
-        l2 = len(word2)
-        k = 0
-
-        for i in range(max(l1,l2)):
-            if i < l1:
-                newStr.append(word1[i])
-                k += 1
-
-            if i < l2:
-                newStr.append(word2[i])
-                k += 1
-
-        return ''.join(newStr)
+        for i in range(max(len(word1), len(word2))):
+            if i < len(word1) and i < len(word2):
+                res += word1[i] + word2[i]
+            elif i >= len(word2):
+                res += word1[i::]
+                break
+            else:
+                res += word2[i::]
+                break
+        return res
