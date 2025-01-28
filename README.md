@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0184-department-highest-salary](https://github.com/achintyashukla/leetcode/tree/master/0184-department-highest-salary) |
+| [0596-classes-more-than-5-students](https://github.com/achintyashukla/leetcode/tree/master/0596-classes-more-than-5-students) |
 ## Two Pointers
 |  |
 | ------- |
